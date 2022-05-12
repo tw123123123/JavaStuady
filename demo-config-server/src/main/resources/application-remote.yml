@@ -1,0 +1,12 @@
+server:
+  port:
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    server:
+      get:
+        url: https://github.com/tw123123123/JavaStuady.git
+        search-paths: /demo-config-server/src/main/resources/
+        username: 2786105454@qq.com
+        password: github019399

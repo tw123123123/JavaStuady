@@ -1,0 +1,8 @@
+eureka:
+  client:
+    service-url:
+      zone-1: http://server2:7001/eureka/
+      zone-2: http://server1:7000/eureka/
+      defaultZone: http://server:7000/eureka/, http://server2:7000/eureka/
+data:
+  env: product
